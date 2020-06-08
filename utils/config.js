@@ -1,4 +1,4 @@
-const JWT_SECRET = 'oawndoqa2noindaoid0210';
+const JWT_SECRET = process.env.JWT_SECRET;
 
 module.exports = {
     JWT_SECRET
